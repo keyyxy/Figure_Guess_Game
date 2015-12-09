@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Figure_guess_game.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+    <link rel="stylesheet" href="Figure_guess_game.css" type="text/css"></link>
+  	<script type="text/javascript" src="Figure_guess_game.js"></script>
+  	</head>
+  
+  <body>
+	<div class="div1">
+		<table class="table" >
+			<tr align="center";><td ><input type="button" value="重新开始"></td><td>gif</td><td><input type="button" value="静音"><iframe id="music" src="music/ED6100.ogg" /></iframe></td><td>Back_Time</td><td>Time</td></tr>
+			<tr align="center";><td></td><td><img id="shoushizuo" src="images/shizuo.png"></td><td><img src="images/VS.png"></td><td><img id="shoushiyou" src="images/shiyou.png"></td><td></td></tr>
+			<tr align="center";><td><input type="image" onmousedown="change(this)" src="images/bu.png" alt="Submit" value="bu"/></td><td><input type="image" onmousedown="change(this)" src="images/jian.png" alt="Submit" value="jian"/></td><td><input type="image" onmousedown="change(this)" src="images/shi.png" alt="Submit" value="shi"/></td><td><input type="image" onmousedown="change(this)" src="images/bi.png" alt="Submit" value="bi"/></td><td><input type="image" onmousedown="change(this)" src="images/yi.png" alt="Submit" value="yi"/></td></tr>
+			</table>
+			
+			<table style="width:800px">
+				<tr><td>This is a simple figure_guess_game, you could choose you choice from the following 5 different gesture to start the game. The left gesture is your decision, while the right one is system generated randomly, so. Good luck and have fun!!</td></tr>
+				<tr><td>简易猜拳游戏:从下面五种方法中,选择你要出的手势,左侧显示的为你要出的手势,而右侧的为系统自动随机生成的手势. 祝你体验愉快</td></tr>
+				<tr><td></td></tr>
+				<tr><td>注：此为测试版，只有基础的手势实现；，而且游戏暂时不能显示结果。且只实现了前面三种手势;</td></tr>
+				</table>
+		
+	</div>
+  </body>
+</html>
